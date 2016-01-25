@@ -3,6 +3,6 @@ Dockerfile for building RailsLTS images - https://hub.docker.com/r/rslobodian/ra
 
 Based on phusion/passenger-ruby18 - https://hub.docker.com/r/phusion/passenger-ruby18/
 
-Rails LTS from Makandra: https://github.com/makandra/rails
+Rails LTS by Makandra (all rights reserved): https://github.com/makandra/rails
 
 License: Apache 2.0
