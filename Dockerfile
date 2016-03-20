@@ -28,4 +28,7 @@ RUN gem install --no-ri --no-rdoc pkg/activesupport-2.3.*.gem && \
 
 WORKDIR /
 
-RUN rm -rf rails-2-3-lts* && gem list
+RUN rm -rf rails-2-3-lts* && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    gem list
